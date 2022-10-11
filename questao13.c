@@ -1,8 +1,8 @@
 #include <stdio.h>
 
 int inverter(int n, int *vet){
-    int compv[4];
-    for(int j = 4,i = 0; i <= 4; i++,j--){
+    int compv[5];
+    for(int j = 5,i = 0; i <= 5; i++,j--){
         compv[i] = vet[j];
       
     printf("%d ", compv[i]);
